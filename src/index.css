@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Questrial&family=Rubik:ital,wght@0,300..900;1,300..900&family=Varela+Round&display=swap");
+
+:root {
+  font-family: "Varela Round", sans-serif;
+  color: #69150e;
+}
+
+body {
+  margin: 0px;
+}
+
+a {
+  text-decoration-line: none;
+  color: #69150e;
+}
+
+a:hover {
+  color: #f45d4f;
+}
+
+button {
+  background-color: #f45d4f;
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 10px 20px;
+  color: white;
+  font-weight: 600;
+  border-radius: 25px;
+}
+
+button:hover {
+  background-color: white;
+  border: 1px solid #69150e;
+  color: #69150e;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 2px solid #f45d4f;
+}
+
+#header img {
+  width: 60px;
+  cursor: pointer;
+}
+
+#header nav {
+  display: flex;
+  gap: 5vw;
+}
+
+#header-sign {
+  display: flex;
+  gap: 20px;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: auto;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

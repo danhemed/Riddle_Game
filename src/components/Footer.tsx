@@ -5,7 +5,7 @@ export default function Footer() {
     <div id="footer">
       <Link to='/Terms_and_Conditions'>Terms and Conditions</Link>
       <p>Created by 'Dan Hemed'</p>
-      <button>admin login</button>
+      <Link to='/admin'>admin system</Link>
     </div>
   )
 }
