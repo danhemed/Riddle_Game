@@ -33,7 +33,7 @@ button:hover {
   color: #69150e;
 }
 
-#header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,12 +41,12 @@ button:hover {
   border-bottom: 2px solid #f45d4f;
 }
 
-#header img {
+header img {
   width: 60px;
   cursor: pointer;
 }
 
-#header nav {
+header nav {
   display: flex;
   gap: 5vw;
 }
@@ -56,7 +56,7 @@ button:hover {
   gap: 20px;
 }
 
-#footer {
+footer {
   display: flex;
   justify-content: space-between;
   align-items: center;

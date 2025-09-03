@@ -2,7 +2,7 @@ import { Link } from 'react-router'
 
 export default function Header() {
   return (
-    <div id="header">
+    <header>
         <Link to='/'>
         <img src="/logo.svg" alt="logo riddle game" />
         </Link>
@@ -16,6 +16,6 @@ export default function Header() {
             <button>Sign up</button>
             <button>Sign in</button>
         </div>
-    </div>
+    </header>
   )
 }
