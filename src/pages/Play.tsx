@@ -5,9 +5,11 @@ export default function Play() {
   
   return (
     <div>
+      <div id="play-status">
       <h2>status:</h2>
       <p>riddles answered: { }</p>
       <p>mistakes: { }</p>
+      </div>
       <section className="page">
         <h1>name riddle: { }</h1>
         <form action="">
