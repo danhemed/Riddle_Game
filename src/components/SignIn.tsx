@@ -1,7 +1,7 @@
 
 export default function SignIn() {
   return (
-    <div>
+    <>
         <section className="page">
         <h1>Sign In</h1>
         <form action="">
@@ -13,6 +13,6 @@ export default function SignIn() {
             <button type="submit">Come In</button>
         </form>
         </section>
-    </div>
+    </>
   )
 }

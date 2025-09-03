@@ -1,12 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Questrial&family=Rubik:ital,wght@0,300..900;1,300..900&family=Varela+Round&display=swap");
 
-:root {
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
   font-family: "Varela Round", sans-serif;
   color: #69150e;
 }
 
-body {
-  margin: 0px;
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main > div {
+  height: 100%;
+  padding: 30px 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 a {
@@ -34,6 +50,16 @@ button:hover {
   color: #69150e;
 }
 
+#home-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#home-buttons button {
+  width: 300px;
+}
+ 
 header {
   height: 70px;
   display: flex;
@@ -64,6 +90,7 @@ footer {
   align-items: center;
   padding: 10px 20px;
   margin-top: auto;
+  border-top: 2px solid #f45d4f;
 }
 
 .page {
@@ -71,7 +98,11 @@ footer {
   justify-items: center;
   align-content: center;
   text-align: center;
-  background-color: #fbecd8;
+  background-color: #fbdfd8;
   border-radius: 50px;
-  margin: 50px;
+}
+
+#play-status {
+  display: flex;
+  justify-content: space-between;
 }

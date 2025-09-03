@@ -14,6 +14,7 @@ import SignUp from './components/SignUp'
 function App() {
   return (
     <>
+      <main>
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -28,6 +29,7 @@ function App() {
         <Route path='/Terms_and_Conditions' element={<TermsAndConditions />} />
       </Routes>
       <Footer />
+      </main>
     </>
   )
 }
