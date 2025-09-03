@@ -13,8 +13,12 @@ export default function Header() {
             <Link to='/about'>About</Link>
         </nav>
         <div id='header-sign'>
+            <Link to='/login/signup'>
             <button>Sign up</button>
+            </Link>
+            <Link to='/login/signin'>
             <button>Sign in</button>
+            </Link>
         </div>
     </header>
   )
