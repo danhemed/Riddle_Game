@@ -12,7 +12,10 @@ export default function Play() {
         <h1>name riddle: { }</h1>
         <form action="">
           <label htmlFor="taskDescription">taskDescription: { }</label>
+          <br />
           <input type="text" id="taskDescription" name="taskDescription" />
+          <br />
+          <br />
           <button type="submit">check</button>
         </form>
       </section>
