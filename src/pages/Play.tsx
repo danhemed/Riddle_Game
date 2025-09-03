@@ -1,7 +1,7 @@
-import { useState } from "react";
+// import { useState } from "react";
 
 export default function Play() {
-  const [riddles, setRiddles] = useState([]);
+  // const [riddles, setRiddles] = useState([]);
   
   return (
     <div>
