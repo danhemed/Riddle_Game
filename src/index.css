@@ -105,4 +105,39 @@ footer {
 #play-status {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  border: 1px solid #69150e;
+  border-radius: 50px;
+  font-size: 18px;
+  height: 40px;
+  padding: 5px 20px;
+  color: #69150e;
+  margin: 5px;
+}
+
+input:focus {
+  border: 1px solid #f45d4f;
+  color: rgb(88, 63, 58);
+  outline: none;
+}
+
+input:valid {
+  border: 1px solid rgb(0, 255, 145);
+  color: rgb(58, 88, 69);
+  outline: none;
+}
+
+input::placeholder {
+  font-size: 14px;
+  color: rgb(176, 176, 176);
+}
+
+#login-nav {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

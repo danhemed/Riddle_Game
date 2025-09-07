@@ -4,7 +4,7 @@ export default function Login() {
   return (
     <div>
       <section>
-        <nav>
+        <nav id="login-nav">
           <Link to='signup'>sign up</Link>
           <Link to='signin'>sign in</Link>
         </nav>
